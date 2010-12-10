@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>  
+<CREOLE-DIRECTORY>  
+<CREOLE>  
+   <RESOURCE>  
+
+      <NAME>Gate2Mysql</NAME>  
+      <JAR>Gate2Mysql.jar</JAR>  
+      <CLASS>Gate2Mysql</CLASS>  
+
+      <PARAMETER NAME="servidor"  DEFAULT ="jdbc:mysql://localhost" COMMENT="Server Mysql address." 	 RUNTIME="false">java.lang.String</PARAMETER>  
+      <PARAMETER NAME="porta"     DEFAULT ="3306" 		    COMMENT="Porta do Servidor Mysql." 	 RUNTIME="false">java.lang.String</PARAMETER>  
+      <PARAMETER NAME="banco"     DEFAULT ="test" 		    COMMENT="Nome do banco." 		 RUNTIME="false">java.lang.String</PARAMETER>  
+      <PARAMETER NAME="usuario"   DEFAULT ="root" 		    COMMENT="Nome do usuário." 		 RUNTIME="false">java.lang.String</PARAMETER>  
+      <PARAMETER NAME="senha"	  DEFAULT ="1" 	   	            COMMENT="Senha do usuário." 	 RUNTIME="false">java.lang.String</PARAMETER>  
+      
+    </RESOURCE> 
+
+ 
+  
+</CREOLE>  
+</CREOLE-DIRECTORY>  
