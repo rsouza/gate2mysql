@@ -1,0 +1,2 @@
+Gate (http://gate.ac.uk/) is a powerful tool for Natural Language Processing.
+This plugin allows an easy way to save all the annotations from GATE to a MySQL Database, making it easier to work with corpora annotations and features.
